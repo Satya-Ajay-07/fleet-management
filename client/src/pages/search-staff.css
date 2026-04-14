@@ -1,0 +1,64 @@
+.searchstaff-container{
+
+  margin-left:250px;
+  padding:40px;
+  width:100%;
+
+}
+
+.form-card{
+
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  margin-top:20px;
+
+  box-shadow:0px 3px 10px rgba(0,0,0,0.08);
+
+}
+
+.form-grid{
+
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:20px;
+
+}
+
+.form-grid input{
+
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+
+}
+.role{
+
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+
+}
+.save-btn{
+
+  margin-top:20px;
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:6px;
+  cursor:pointer;
+
+}
+
+.assign-btn{
+
+  margin-top:20px;
+  background:#22c55e;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:6px;
+  cursor:pointer;
+
+}
