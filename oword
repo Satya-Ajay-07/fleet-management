@@ -1,0 +1,13 @@
+[35mclient/src/context/AuthContext.jsx[m[36m:[m  const login = async (email, [1;31mpassword[m) => {
+[35mclient/src/context/AuthContext.jsx[m[36m:[m    const data = await loginUser(email, [1;31mpassword[m);
+[35mclient/src/pages/Login.jsx[m[36m:[m  const [[1;31mpassword[m, set[1;31mPassword[m] = useState("");
+[35mclient/src/pages/Login.jsx[m[36m:[m    const res = await login(email, [1;31mpassword[m);
+[35mclient/src/pages/Login.jsx[m[36m:[m            type="[1;31mpassword[m"
+[35mclient/src/pages/Login.jsx[m[36m:[m            placeholder="[1;31mPassword[m"
+[35mclient/src/pages/Login.jsx[m[36m:[m            value={[1;31mpassword[m}
+[35mclient/src/pages/Login.jsx[m[36m:[m            onChange={(e)=>set[1;31mPassword[m(e.target.value)}
+[35mclient/src/services/authService.js[m[36m:[mexport const loginUser = async (email, [1;31mpassword[m) => {
+[35mclient/src/services/authService.js[m[36m:[m    [1;31mpassword[m
+[35mserver/controllers/authController.js[m[36m:[m  const { email, [1;31mpassword[m } = req.body;
+[35mserver/controllers/authController.js[m[36m:[m  if (!user || user.[1;31mpassword[m !== [1;31mpassword[m) {
+[35mserver/models/User.js[m[36m:[m  [1;31mpassword[m: DataTypes.STRING,
